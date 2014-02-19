@@ -7,11 +7,13 @@ remote_file "#{node[:wpcli][:dir]}/installer.sh" do
   source node[:wpcli][:installer]
   mode 0755
   action :create_if_missing
+  owner 'deploy'
 end
 
 bin = ::File.join(node[:wpcli][:dir], 'bin', 'wp')
 
 bash 'install wp-cli' do
+  user 'deploy'
   code 'sh ./installer.sh'
   cwd node[:wpcli][:dir]
   environment 'INSTALL_DIR' => node[:wpcli][:dir],
