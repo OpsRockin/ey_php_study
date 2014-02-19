@@ -1,4 +1,4 @@
-include_recipe "wpcli"
+include_recipe "wp_cli"
 
 #execute "testing" do
 #  command %Q{
