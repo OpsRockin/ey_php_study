@@ -1,1 +1,1 @@
-run "ln -s #{shared_path}/system/wordpress #{release_path}/public"
+run "ln -s #{config.shared_path}/system/wordpress #{config.release_path}/public"
