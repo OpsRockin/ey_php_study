@@ -1,0 +1,8 @@
+sampler_label,aggregate_report_count,average,aggregate_report_median,aggregate_report_90%_line,aggregate_report_min,aggregate_report_max,aggregate_report_error%,aggregate_report_rate,aggregate_report_bandwidth
+/,20054,6765,6744,7268,192,8426,0.004737209534257505,14.603940748228032,1192.1416493362904
+/wp-includes/js/jquery/jquery.js,19956,13,10,17,7,343,0.0,14.538831414833163,527.5004781072417
+/wp-content/themes/twentyfourteen/style.css,19956,7,6,11,4,310,0.0,14.539022076640958,236.69856834486936
+/wp-includes/js/jquery/jquery-migrate.min.js,19954,5,4,7,3,290,0.0,14.538497071754048,49.9186238473538
+/wp-content/themes/twentyfourteen/genericons/genericons.css,19954,5,5,7,3,151,0.0,14.538126334671253,193.2258239170174
+/wp-content/themes/twentyfourteen/js/functions.js,19954,4,4,6,2,162,0.0,14.538094558086806,25.71075713649117
+TOTAL,119828,1138,6,6696,2,8426,7.928030176586441E-4,87.26244200551854,2224.733070408632
